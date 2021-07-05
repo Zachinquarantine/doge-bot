@@ -22,7 +22,7 @@ async def on_ready():
   await client.change_presence(status=discord.Status.online, activity=discord.Activity(name="discord doge?! Very wow!", type=discord.ActivityType.listening))
   print('Bot is now online.')
 
-# I initially added a !privacy command here (due to listing requirements for certain bot sites), but have removed it in the Open Source version. If you wish to add it, go to (url) and copy and paste the code from that file to the line directly below this message. Remember to replace Owner#1234 with your Discord Username and Identifier or a website containing the Privacy Policy statement.
+# I initially added a !privacy command here (due to listing requirements for certain bot sites), but have removed it in the Open Source version. If you wish to add it, go to https://github.com/Zachinquarantine/doge-bot/blob/main/privacycommand.py and copy and paste the code from that file to the line directly below this message. Remember to replace Owner#1234 with your Discord Username and Identifier or a website containing the Privacy Policy statement.
 
 # This is where you can add more very Doge images. To do this, just add a new URL between new "", and keep the bracket at the end.
 @client.command()
