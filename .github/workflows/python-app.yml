@@ -6,8 +6,12 @@ name: Python application
 on:
   push:
     branches: [ main ]
-  pull_request:
+paths-ignore:
+      - '**/privacycommand.py'
+ pull_request:
     branches: [ main ]
+    paths-ignore:
+      - '**/privacycommand.py'
 
 jobs:
   build:
